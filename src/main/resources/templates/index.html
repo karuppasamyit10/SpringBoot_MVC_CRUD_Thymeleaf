@@ -52,7 +52,7 @@ th, td {
 		</form>
 	</div>
 	<div th:if="${employee == null}">
-	   <h2>Create New Employee Information</h2>
+	   <h2>Create New Employee</h2>
 	   <form action="#" th:action="@{/api/employee/add}" method="POST" th:object="${employee}">
 			FirstName <input type="text" id="firstName" name="firstName" /><br />
 			LastName <input type="text" id="lastName" name="lastName" /><br />
