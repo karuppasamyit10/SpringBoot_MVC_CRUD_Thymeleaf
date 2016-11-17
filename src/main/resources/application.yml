@@ -1,11 +1,4 @@
-#spring:
-#  data:
-#    mongodb:
-#      database: ccare
-#      host: localhost
-#      port: 27017
-      
-#APPLICATION-PROPERTIES
+ #APPLICATION-PROPERTIES
 server:
   address: localhost
   port: 7070
@@ -27,7 +20,6 @@ spring:
       naming:
         strategy:  org.hibernate.cfg.ImprovedNamingStrategy
     database-platform: org.hibernate.dialect.MySQL5Dialect
-
   thymeleaf:
     cache: false
  
